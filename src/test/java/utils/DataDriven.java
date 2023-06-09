@@ -56,7 +56,7 @@ public class DataDriven {
                 while(celda.hasNext()){
                     Cell celdaSeleccionada = celda.next();
                     //System.out.println(celdaSeleccionada.getStringCellValue());
-                    if(celdaSeleccionada.getStringCellValue().equalsIgnoreCase(PropertiesDriven.getProperty("tituloCPs"))){
+                    if(celdaSeleccionada.getStringCellValue().equalsIgnoreCase(PropertiesDriven.getProperty("tituloCP"))){
                         //identifique la celda con el titulo de la columna con los nombres de los CP's
                         columna = k;
 
